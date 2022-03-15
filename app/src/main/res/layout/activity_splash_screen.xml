@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.SplashScreenActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/splash_photo"
+            android:layout_width="130dp"
+            android:layout_height="145dp"
+            android:src="@drawable/eduzaplogo"
+            android:transitionName="logo_image" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/splash_photo"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/boogaloo"
+            android:text="Love to Learn"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:transitionName="logo_text" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="30dp"
+        android:text="version"
+        android:textSize="18sp" />
+
+</RelativeLayout>
