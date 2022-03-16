@@ -68,7 +68,8 @@
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:theme="@style/SplashScreenStyle"
-            tools:ignore="LockedOrientationActivity">
+            tools:ignore="LockedOrientationActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
