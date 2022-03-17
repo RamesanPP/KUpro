@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">EDUzap</string>
+    <string name="app_name">VidyarthiKU</string>
     <string name="title_activity_home">Home</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">EDUzap</string>
+    <string name="nav_header_title">VidyarthiKU</string>
     <string name="nav_header_subtitle"> Love To Learn</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
@@ -18,10 +18,10 @@
     <string name="drawer_second">Downloads</string>
     <string name="drawer_third">Saved Videos</string>
     <string name="drawer_about_us">About Us</string>
-    <string name="drawer_go_to_youtube">Go to Youtube</string>
+    <string name="drawer_go_to_youtube">Placement Cell</string>
     <string name="drawer_share_now">Share Now</string>
     <string name="drawer_developers">Developers</string>
-    <string name="drawer_team">Our Team</string>
+    <string name="drawer_team">Our Faculties</string>
 
     <string name="media_and_promotion">Media And Promotion</string>
     <string name="chief_educator">Chief Educator</string>

@@ -29,7 +29,7 @@
             android:fontFamily="@font/boogaloo"
             android:text="Love to Learn"
             android:textAlignment="center"
-            android:textColor="@color/colorAccent"
+            android:textColor="@color/colorPrimary"
             android:textSize="25sp"
             android:textStyle="italic"
             android:transitionName="logo_text" />

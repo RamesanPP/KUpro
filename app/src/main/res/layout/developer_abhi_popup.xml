@@ -19,7 +19,7 @@
         android:layout_height="150dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
-        android:src="@drawable/developerabhishek" />
+        android:src="@drawable/devajay" />
 
     <TextView
         android:id="@+id/developer_nameTV"
@@ -30,7 +30,7 @@
         android:layout_marginTop="18dp"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:text="Abhishek S Lal"
+        android:text="Ajay Dev"
         android:textSize="24dp" />
 
     <TextView
@@ -44,7 +44,7 @@
         android:layout_marginEnd="22dp"
         android:gravity="center"
         android:textAllCaps="true"
-        android:text="Freelance Developer"
+        android:text="Web and App Developer"
         android:textSize="18dp"
         android:textStyle="italic" />
 

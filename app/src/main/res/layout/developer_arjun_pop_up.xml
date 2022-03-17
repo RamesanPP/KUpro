@@ -19,7 +19,7 @@
         android:layout_height="150dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
-        android:src="@drawable/developerarjun" />
+        android:src="@drawable/devkichu" />
 
     <TextView
         android:id="@+id/developer_nameTV"
@@ -28,7 +28,7 @@
         android:layout_below="@id/developerAbhiIV"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="18dp"
-        android:text="Arjun S G"
+        android:text="Abhishek S Lal"
         android:textColor="@color/black"
         android:textSize="24dp"
         android:textStyle="bold" />

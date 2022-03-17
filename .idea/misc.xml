@@ -3,9 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Asus/Documents/AJ College/Major Project/Eduzap-Android-App-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1105" />
+        <entry key="..\:/Users/Asus/Documents/AJ College/Major Project/Eduzap-Android-App-master/app/src/main/res/drawable/ic_baseline_account_balance_24.xml" value="0.1105" />
+        <entry key="..\:/Users/Asus/Documents/AJ College/Major Project/Eduzap-Android-App-master/app/src/main/res/drawable/ic_baseline_close.xml" value="0.1105" />
+        <entry key="..\:/Users/Asus/Documents/AJ College/Major Project/Eduzap-Android-App-master/app/src/main/res/drawable/ic_baseline_info.xml" value="0.1105" />
+        <entry key="..\:/Users/Asus/Documents/AJ College/Major Project/Eduzap-Android-App-master/app/src/main/res/drawable/ic_dashboard.xml" value="0.1105" />
         <entry key="..\:/Users/Asus/Documents/AJ College/Major Project/Eduzap-Android-App-master/app/src/main/res/drawable/ic_download.xml" value="0.1105" />
+        <entry key="..\:/Users/Asus/Documents/AJ College/Major Project/Eduzap-Android-App-master/app/src/main/res/drawable/ic_home.xml" value="0.1105" />
+        <entry key="..\:/Users/Asus/Documents/AJ College/Major Project/Eduzap-Android-App-master/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1105" />
+        <entry key="..\:/Users/Asus/Documents/AJ College/Major Project/Eduzap-Android-App-master/app/src/main/res/drawable/ic_pdf.xml" value="0.1105" />
         <entry key="..\:/Users/Asus/Documents/AJ College/Major Project/Eduzap-Android-App-master/app/src/main/res/layout/activity_learn.xml" value="0.2" />
         <entry key="..\:/Users/Asus/Documents/AJ College/Major Project/Eduzap-Android-App-master/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/Documents/AJ College/Major Project/Eduzap-Android-App-master/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/Documents/AJ College/Major Project/Eduzap-Android-App-master/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/Documents/AJ College/Major Project/Eduzap-Android-App-master/app/src/main/res/layout/developer_abhi_popup.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/Documents/AJ College/Major Project/Eduzap-Android-App-master/app/src/main/res/layout/developer_arjun_pop_up.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/Documents/AJ College/Major Project/Eduzap-Android-App-master/app/src/main/res/layout/drawer_fragment_about_us.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/Documents/AJ College/Major Project/Eduzap-Android-App-master/app/src/main/res/layout/drawer_fragment_my_profile.xml" value="0.1" />
+        <entry key="..\:/Users/Asus/Documents/AJ College/Major Project/Eduzap-Android-App-master/app/src/main/res/layout/drawer_fragment_team.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/Documents/AJ College/Major Project/Eduzap-Android-App-master/app/src/main/res/layout/drawer_header_main.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/Documents/AJ College/Major Project/Eduzap-Android-App-master/app/src/main/res/menu/learn_bottom_nav_menu.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/Documents/AJ College/Major Project/Eduzap-Android-App-master/app/src/main/res/menu/main_home_options_menu.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/Documents/AJ College/Major Project/Eduzap-Android-App-master/app/src/main/res/menu/main_nav_drawer_menu.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/Documents/AJ College/Major Project/Eduzap-Android-App-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1105" />
       </map>
     </option>
   </component>

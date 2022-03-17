@@ -27,7 +27,7 @@
                     android:title="@string/drawer_about_us" />
                 <item
                     android:id="@+id/nav_goto_youtube"
-                    android:icon="@drawable/ic_youtube"
+                    android:icon="@drawable/ic_baseline_account_balance_24"
                     android:title="@string/drawer_go_to_youtube" />
                 <item
                     android:id="@+id/nav_contact_us"

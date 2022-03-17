@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:paddingBottom="20dp"
-            android:src="@drawable/eduzap_logo_small" />
+            android:src="@drawable/eduzaplogo" />
 
 
         <TextView
@@ -44,7 +44,7 @@
                 android:layout_height="wrap_content"
                 android:background="?android:selectableItemBackground"
                 android:orientation="vertical"
-                android:padding="20dp">
+                android:padding="15dp">
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/team_member_1_img"
@@ -52,11 +52,17 @@
                     android:layout_height="140dp"
                     android:contentDescription="Team Member 1 Picture" />
 
+                <ProgressBar
+                    android:id="@+id/team_member_1_img_PV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="45dp"/>
+
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="160dp"
+                    android:layout_height="140dp"
                     android:layout_marginStart="10dp"
-                    android:layout_toRightOf="@id/team_member_1_img"
+                    android:layout_toEndOf="@id/team_member_1_img"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -72,32 +78,54 @@
 
                     <TextView
                         android:id="@+id/team_member_1_position"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="18dp"
+                        android:gravity="center"
                         android:textColor="@android:color/black"
                         android:textSize="14sp"
                         android:textStyle="italic" />
 
-                    <TextView
-                        android:id="@+id/team_member_1_email"
+                    <LinearLayout
+                        android:id="@+id/team_member_1_contacts"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="left"
-                        android:layout_marginTop="10dp"
-                        android:autoLink="email"
-                        android:padding="5dp"
-                        android:textColor="@android:color/black"
-                        android:textSize="14sp" />
+                        android:layout_below="@id/team_member_1_position"
+                        android:layout_centerHorizontal="true"
+                        android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/team_member_1_mobile"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="left"
-                        android:autoLink="phone"
-                        android:paddingStart="5dp"
-                        android:textColor="@android:color/black"
-                        android:textSize="14sp" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:id="@+id/team_member_1_email"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:padding="8dp"
+                                android:src="@drawable/ic_gmail" />
+
+                            <ImageView
+                                android:id="@+id/team_member_1_mobile"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:padding="8dp"
+                                android:autoLink="phone"
+                                android:src="@drawable/ic_baseline_local_phone_24" />
+
+                            <ImageView
+                                android:id="@+id/team_member_1_whatsapp"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:padding="8dp"
+                                android:src="@drawable/ic_whatsapp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
 
                 </LinearLayout>
             </RelativeLayout>
@@ -118,7 +146,7 @@
                 android:layout_height="wrap_content"
                 android:background="?android:selectableItemBackground"
                 android:orientation="vertical"
-                android:padding="20dp">
+                android:padding="15dp">
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/team_member_2_img"
@@ -126,9 +154,15 @@
                     android:layout_height="140dp"
                     android:contentDescription="Team Member 2 Picture" />
 
+                <ProgressBar
+                    android:id="@+id/team_member_2_img_PV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="45dp"/>
+
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="160dp"
+                    android:layout_height="140dp"
                     android:layout_marginStart="10dp"
                     android:layout_toRightOf="@id/team_member_2_img"
                     android:gravity="center"
@@ -146,34 +180,52 @@
 
                     <TextView
                         android:id="@+id/team_member_2_position"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-
+                        android:layout_margin="18dp"
+                        android:gravity="center"
                         android:textColor="@android:color/black"
                         android:textSize="14sp"
                         android:textStyle="italic" />
 
-                    <TextView
-                        android:id="@+id/team_member_2_email"
+                    <LinearLayout
+                        android:id="@+id/team_member_2_contacts"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="left"
-                        android:autoLink="email"
-                        android:layout_marginTop="10dp"
-                        android:padding="5dp"
-                        android:textColor="@android:color/black"
-                        android:textSize="14sp" />
+                        android:layout_below="@id/team_member_1_position"
+                        android:layout_centerHorizontal="true"
+                        android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/team_member_2_mobile"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:autoLink="phone"
-                        android:layout_gravity="left"
-                        android:padding="5dp"
-                        android:textColor="@android:color/black"
-                        android:textSize="14sp" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center">
 
+                            <ImageView
+                                android:id="@+id/team_member_2_email"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:padding="8dp"
+                                android:src="@drawable/ic_gmail" />
+
+                            <ImageView
+                                android:id="@+id/team_member_2_mobile"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:padding="8dp"
+                                android:autoLink="phone"
+                                android:src="@drawable/ic_baseline_local_phone_24" />
+
+                            <ImageView
+                                android:id="@+id/team_member_2_whatsapp"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:padding="8dp"
+                                android:src="@drawable/ic_whatsapp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
                 </LinearLayout>
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
@@ -193,7 +245,7 @@
                 android:layout_height="wrap_content"
                 android:background="?android:selectableItemBackground"
                 android:orientation="vertical"
-                android:padding="20dp">
+                android:padding="15dp">
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/team_member_3_img"
@@ -201,9 +253,15 @@
                     android:layout_height="140dp"
                     android:contentDescription="Team Member 3 Picture" />
 
+                <ProgressBar
+                    android:id="@+id/team_member_3_img_PV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="45dp"/>
+
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="160dp"
+                    android:layout_height="140dp"
                     android:layout_marginStart="10dp"
                     android:layout_toRightOf="@id/team_member_3_img"
                     android:gravity="center"
@@ -222,32 +280,52 @@
 
                     <TextView
                         android:id="@+id/team_member_3_position"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="18dp"
+                        android:gravity="center"
                         android:textColor="@android:color/black"
                         android:textSize="14sp"
                         android:textStyle="italic" />
 
-                    <TextView
-                        android:id="@+id/team_member_3_email"
+                    <LinearLayout
+                        android:id="@+id/team_member_3_contacts"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="left"
-                        android:autoLink="email"
-                        android:layout_marginTop="10dp"
-                        android:padding="5dp"
-                        android:textColor="@android:color/black"
-                        android:textSize="14sp" />
+                        android:layout_below="@id/team_member_1_position"
+                        android:layout_centerHorizontal="true"
+                        android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/team_member_3_mobile"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:autoLink="phone"
-                        android:layout_gravity="left"
-                        android:padding="5dp"
-                        android:textColor="@android:color/black"
-                        android:textSize="14sp" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:id="@+id/team_member_3_email"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:padding="8dp"
+                                android:src="@drawable/ic_gmail" />
+
+                            <ImageView
+                                android:id="@+id/team_member_3_mobile"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:padding="8dp"
+                                android:autoLink="phone"
+                                android:src="@drawable/ic_baseline_local_phone_24" />
+
+                            <ImageView
+                                android:id="@+id/team_member_3_whatsapp"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:padding="8dp"
+                                android:src="@drawable/ic_whatsapp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
 
                 </LinearLayout>
             </RelativeLayout>
@@ -268,7 +346,7 @@
                 android:layout_height="wrap_content"
                 android:background="?android:selectableItemBackground"
                 android:orientation="vertical"
-                android:padding="20dp">
+                android:padding="15dp">
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/team_member_4_img"
@@ -276,9 +354,15 @@
                     android:layout_height="140dp"
                     android:contentDescription="Team Member 4 Picture" />
 
+                <ProgressBar
+                    android:id="@+id/team_member_4_img_PV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="45dp"/>
+
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="160dp"
+                    android:layout_height="140dp"
                     android:layout_marginStart="10dp"
                     android:layout_toRightOf="@id/team_member_4_img"
                     android:gravity="center"
@@ -297,33 +381,52 @@
 
                     <TextView
                         android:id="@+id/team_member_4_position"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="18dp"
                         android:gravity="center"
                         android:textColor="@android:color/black"
                         android:textSize="14sp"
                         android:textStyle="italic" />
 
-                    <TextView
-                        android:id="@+id/team_member_4_email"
+                    <LinearLayout
+                        android:id="@+id/team_member_4_contacts"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:autoLink="email"
-                        android:layout_gravity="left"
-                        android:layout_marginTop="10dp"
-                        android:padding="5dp"
-                        android:textColor="@android:color/black"
-                        android:textSize="14sp" />
+                        android:layout_below="@id/team_member_1_position"
+                        android:layout_centerHorizontal="true"
+                        android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/team_member_4_mobile"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:autoLink="phone"
-                        android:layout_gravity="left"
-                        android:padding="5dp"
-                        android:textColor="@android:color/black"
-                        android:textSize="14sp" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:id="@+id/team_member_4_email"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:padding="8dp"
+                                android:src="@drawable/ic_gmail" />
+
+                            <ImageView
+                                android:id="@+id/team_member_4_mobile"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:padding="8dp"
+                                android:autoLink="phone"
+                                android:src="@drawable/ic_baseline_local_phone_24" />
+
+                            <ImageView
+                                android:id="@+id/team_member_4_whatsapp"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:padding="8dp"
+                                android:src="@drawable/ic_whatsapp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
 
                 </LinearLayout>
             </RelativeLayout>
