@@ -92,8 +92,6 @@ public class MainActivity extends AppCompatActivity {
                     return true;
                 } else if (id == R.id.nav_developers) {
                     showDeveloperAbhi();
-                } else if (id == R.id.nav_goto_youtube) {
-                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/channel/UCl2qtfsZbmTuue-i7z413ng")));
                 }
 
 
